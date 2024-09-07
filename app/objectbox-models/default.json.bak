@@ -1,0 +1,156 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7212152461177745022",
+      "lastPropertyId": "7:3923340648994685543",
+      "name": "Exercise",
+      "properties": [
+        {
+          "id": "1:8580540634283280162",
+          "name": "dbId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8426932593337764742",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:7158477614066656651",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:8402914179834219186",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "5:3086455932079747921",
+          "name": "tags",
+          "type": 30
+        },
+        {
+          "id": "6:7924163888152428488",
+          "name": "referenceUrls",
+          "type": 30
+        },
+        {
+          "id": "7:3923340648994685543",
+          "name": "mediaDetails",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:4773622498874870956",
+      "lastPropertyId": "4:1998316990025099456",
+      "name": "Logs",
+      "properties": [
+        {
+          "id": "1:4198748437812949954",
+          "name": "dbId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2640403268477003246",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:190656182388170893",
+          "name": "routine",
+          "type": 9
+        },
+        {
+          "id": "4:1998316990025099456",
+          "name": "logDetails",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:8704849239450794850",
+      "lastPropertyId": "6:4399085128204139735",
+      "name": "Routine",
+      "properties": [
+        {
+          "id": "1:1338293346770577663",
+          "name": "dbId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3303914482378703770",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:8458845254972676355",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:5794865680799223136",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "5:6288980424638401168",
+          "name": "tags",
+          "type": 30
+        },
+        {
+          "id": "6:4399085128204139735",
+          "name": "routineDetails",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:5842866174973905468",
+      "lastPropertyId": "4:2458386372940621008",
+      "name": "Workout",
+      "properties": [
+        {
+          "id": "1:6757618345102882246",
+          "name": "dbId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "3:2856046431479777210",
+          "name": "week",
+          "type": 9
+        },
+        {
+          "id": "4:2458386372940621008",
+          "name": "routineIds",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:5842866174973905468",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    5503723690264290212
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
